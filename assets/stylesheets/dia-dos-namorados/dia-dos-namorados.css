@@ -1,0 +1,94 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body {font-size: 100%;}
+
+ul, ol {list-style: none;}
+
+a:link, a:active, a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+body {background-color: #000;}
+
+#messages
+{
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -220px 0 0 -370px;
+	padding: 20px;
+	z-index: 150;
+	background-color: #FFF;
+	
+	opacity: 0.9;
+	
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 10px 10px #333;
+}
+
+	#messages #messagesContainer
+	{
+		height: 400px;
+		position: relative;
+		overflow: hidden;
+	}
+		#messages #messagesContainer ul
+		{
+			position: absolute;
+			top: 500px;
+		}
+			#messages #messagesContainer ul .frames {height: 400px;}
+			
+				#messages #messagesContainer ul li {position: relative;}
+			
+				#messages #messagesContainer ul li.frames {font-size: 45px;}
+				#messages #messagesContainer ul li.alignCenter {text-align: center;}
+					
+					#messages #messagesContainer ul li #assistirNovamente
+					{
+						padding: 25px 0 25px 40px;
+						position: absolute;
+						top: 200px;
+						right: 0;
+						font-size: 13px;
+						color: #333;
+						background: url("../../images/dia-dos-namorados/voltar.png") no-repeat center left;
+					}
+				
+
+#photos
+{
+	width: 100%;
+	display: none;
+	position: relative;
+	overflow: hidden;
+}
+	.our-photos
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 50;
+		padding: 10px;
+		background-color: #FFF;
+	}
+
+#opacity
+{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #000;
+	
+	opacity: 0.8;
+}
+
+audio {display: none;}

@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+}
+
+.icons
+{
+	width: 32px;
+	height: 32px;
+	display: block;
+	text-indent: -90000em;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.iconTwitter {background-image: url("../images/twitter.png");}
+.iconFacebook {background-image: url("../images/facebook.png");}
+.iconMail {background-image: url("../images/mail.png");}
+
+ul {list-style: none;}
+
+body {background: url("../images/background.gif") repeat 0 0;}
+
+#teaser
+{
+	width: 618px;
+	height: 260px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -130px 0 0 -309px;
+}
+	#teaser h1
+	{
+		width: 617px;
+		height: 102px;
+		display: block;
+		text-indent: -90000em;
+		overflow: hidden;
+		background: url("../images/glauciacasante.png") no-repeat 0 0;
+	}
+	
+	#teaser h2
+	{
+		font-size: 25px;
+		text-align: center;
+	}
+	
+	#teaser ul
+	{
+		width: 126px;
+		margin: 30px auto;
+		overflow: hidden;
+	}
+		#teaser ul li
+		{
+			float: left;
+			margin-right: 10px;
+		}
+	
+	#teaser p {text-align: center;}
